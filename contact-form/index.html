@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form class="flex-container" id="form" action="/db.php" method="get">
+        <div class="lg-50">
+            <input type="text" placeholder="First Name" id="first_name" name="first_name">
+        </div>
+
+        <div class="lg-50">
+            <input type="text" placeholder="Last Name" id="last_name" name="last_name">
+        </div>
+
+        <div class="lg-50">
+            <input type="email" placeholder="E-mail" id="email" name="email">
+        </div>
+
+        <div class="lg-50">
+            <input type="url" placeholder="Website" id="website" name="website">
+        </div>
+
+        <div class="lg-100">
+            <textarea id="message" name="message"></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
